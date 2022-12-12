@@ -4,6 +4,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <!-- META VIEWPORT -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,18 +15,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>ITdm.cz</title>
+    <title>ITdm.cz | ICT servis Hradec Králové</title>
+    <!-- META DESCRIPTION -->
+    <meta name="description"
+        content=" IT společnost, která pracuje v okolí Hradce Králové. Specializujeme se na domácí uživatele, malé a střední podniky. Zabýváme se poradenstvím v ICT, správou či servisem informační techniky a počítačovou bezpečností. Nabízíme vysokou kvalitu, odbornost práce, rychlost, výhodnou práci a individuální přístup." />
+    <!-- META KEYWORDS -->
+    <meta name="keywords"
+        content="IT správa, servis Hradec Králové, ICT poradenství, počítačová bezpečnost, IT Librantice" />
+    <!-- META AUTHOR -->
+    <meta name="author" content="Mgr. Matěj Dmejchal" />
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
     <div class="cursor">
-
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
         <div class="container">
             <a class="navbar-brand cursor-scale small" href="#page-top"><img src="img/logo.png" id='logo'
-                    alt="..." /></a>
+                    alt="ITdm logo" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -44,9 +61,11 @@
     <!-- UVODNI SECTION -->
     <section id="uvod-section">
         <div class="container-fluid d-flex flex-column min-vh-100 align-items-center justify-content-center">
-            <h1 class="brand-text text-uppercase p-4 m-0 cursor-scale">
-                Vyřešíme každý problém z IT oblasti
-            </h1>
+            <div class="header-box">
+                <h1 class="brand-text text-uppercase p-4 m-0">
+                    Vyřešíme každý problém z IT oblasti
+                </h1>
+            </div>
             <p class="desc-text cursor-scale small">Protože s námi je vždy řešení</p>
             <button class="btn btn-more px-4 py-2  text-uppercase cursor-scale small"><a href="#sluzby-section">Dozvědět
                     se
@@ -57,7 +76,7 @@
 
     <section class="page-section" id="sluzby-section">
         <div class="container-fluid d-flex flex-column">
-            <h2 class="services-header text-uppercase text-center p-5">Služby</h2>
+            <h2 class="services-header text-uppercase text-center p-5 cursor-scale ">Služby</h2>
         </div>
         <div class="container-fluid services-box-container">
             <div class="row">
@@ -96,11 +115,12 @@
     <!-- ABOUT SECTION -->
     <section class="page-section" id="about-section">
         <div class="container timeline-box">
-            <h2 class="services-header text-uppercase text-center p-5">O nás</h2>
+            <h2 class="services-header text-uppercase text-center p-5 cursor-scale">O nás</h2>
 
             <ul class="timeline">
                 <li>
-                    <div class="timeline-image d-flex"><img class="rounded-circle" src="img/about-1.jpg" alt="..." />
+                    <div class="timeline-image d-flex"><img class="rounded-circle" src="img/about-1.jpg"
+                            alt="spolupráce" />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -114,7 +134,8 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image d-flex"><img class="rounded-circle" src="img/about-2.jpg" alt="..." />
+                    <div class="timeline-image d-flex"><img class="rounded-circle" src="img/about-2.jpg"
+                            alt="bezpečnost" />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -128,7 +149,8 @@
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image d-flex"><img class="rounded-circle" src="img/about-3.jpg" alt="..." />
+                    <div class="timeline-image d-flex"><img class="rounded-circle" src="img/about-3.jpg"
+                            alt="Naučíme vás" />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -141,7 +163,8 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image d-flex"><img class="rounded-circle" src="img/about-4.jpg" alt="..." />
+                    <div class="timeline-image d-flex"><img class="rounded-circle" src="img/about-4.jpg"
+                            alt="profesionální přístup" />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -161,7 +184,7 @@
     <!-- CONTACT -->
     <section class="page-section" id="contact-section">
         <div class="container">
-            <h2 class="services-header text-uppercase text-center p-5">kontakt</h2>
+            <h2 class="services-header text-uppercase text-center p-5 cursor-scale">kontakt</h2>
 
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
@@ -182,7 +205,7 @@
     </section>
 
     <footer class="footer d-flex align-items-center">
-        <h3 class="footer-header">© ITDM.CZ 2022</h3>
+        <h3 class="footer-header cursor-scale">© ITDM.CZ 2022</h3>
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->

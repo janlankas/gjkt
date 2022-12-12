@@ -29,15 +29,18 @@
   z-index: 1000;
 }
 
-.grow,
-.grow-small {
-  transform: scale(5);
-  background: #ffff;
-  mix-blend-mode: difference;
+.grow {
+  transform: scale(2.5);
   border: none;
+  background: rgb(255, 255, 255);
+
+  mix-blend-mode: difference;
 }
 .grow-small {
   transform: scale(2.3);
+  background: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+  border: none;
 }
 
 nav {
@@ -66,6 +69,10 @@ nav {
   font-size: 3.3rem;
   font-weight: bold;
 }
+.brand-text:hover {
+  /* transform: scale(1.1); */
+  transition: all 0.3s ease-in-out;
+}
 
 .desc-text {
   color: white;
@@ -86,6 +93,12 @@ nav {
 .btn-more a {
   text-decoration: none;
   color: white;
+}
+
+.header-box:hover {
+  background: rgba(255, 255, 255, 0.74);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
 }
 /* services */
 #sluzby-section {
@@ -301,6 +314,11 @@ nav {
 @media (max-width: 768px) {
   .brand-text {
     font-size: 1.7rem;
+  }
+  #about-section,
+  #contact-section {
+    padding-right: 1em;
+    padding-left: 1em;
   }
 }
 
